@@ -18,6 +18,4 @@ FROM ${BASEIMAGE}
 COPY --from=build-venv /venv /venv
 COPY . /app
 WORKDIR /app
-# Kubernetes runAsNonRoot requires USER to be numeric
-USER 65532:65532
-ENTRYPOINT ["/venv/bin/python3", "main.py"]
+ENTRYPOINT ["/venv/bin/python3", "upload.py"]
