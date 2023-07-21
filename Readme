@@ -1,1 +1,1 @@
-this is used to create a dockerfile which download blob with AAD workload identity 
+this is used to create a dockerfile which upload blob with AAD workload identity 
