@@ -1,1 +1,8 @@
 this is used to create a dockerfile which upload blob with AAD workload identity 
+
+1. upload.py followed the document https://learn.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-python?tabs=managed-identity%2Croles-azure-portal%2Csign-in-azure-cli#assign-roles-to-your-azure-ad-user-account 
+to use python upload file to blob
+
+2. the requirments is python module which needs to be installed 
+
+3. build the dockerfile which will be deployed in AKS cluster 
